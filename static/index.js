@@ -436,8 +436,8 @@ function shareText(score) {
 
     deviation_time = (date2.getTime() - _date1.getTime())
     if (score <= 2.5 * __Time) return '锉刀！';
-    if (score <= 5 * __Time) return '小加加要靠你了';
-    if (score <= 7.5 * __Time) return 'nb';
+    if (score <= 5 * __Time) return '驱逐！';
+    if (score <= 7 * __Time) return '士可杀不可乳！';
     if (score <= 9 * __Time) return '小加加36D！';
     return '誓约，然而还是锉刀';
 }
